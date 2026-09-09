@@ -143,7 +143,7 @@ public class twodarr {
 //         System.out.println();
 // }
 
-//sparks matrix
+//sparse matrix
 int left=0;
     int right=r-1;
     int top=0;
