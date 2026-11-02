@@ -1,4 +1,4 @@
-public class quickSort {
+public class quickort {
    
    public static void quicksort(int[] arr,int low,int high){
         if(low<high){
@@ -8,8 +8,8 @@ public class quickSort {
         }
    }
     public static int partition(int[] arr,int low,int high){
-         int pivot = arr[high];
-        int i = low - 1;
+        int pivot = arr[high];
+        int i = low-1;
 
         for (int j = low; j < high; j++) {
 
@@ -29,7 +29,6 @@ public class quickSort {
                   
            }
  
-    
     public static void main(String[] args) {
         int[] arr={9,8,4,1,2,6,7};
        
